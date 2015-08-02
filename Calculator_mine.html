@@ -1,0 +1,91 @@
+<html>
+ <head>
+  
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles001.css" />
+  <script src="calc.js"></script>
+ </head>
+ <bodytitle>
+  <h1> Calculator</h1>
+  <table border="1" cellpadding="2" cellspacing="0">
+   <!-- Строка 1 -->
+   <tr>
+     <td colspan="5" align="center">
+        <input type="text" class="display" id="disp" value="456" maxlength="12">
+     </td>
+   </tr>
+   <!-- Строка 2 -->
+   <tr>
+     <td width="20%" valign="top">
+      <button class="buttonN" id="k7" onclick="clickN(7)">7</button>
+     </td>
+     <td width="20%" valign="top">
+      <button class="buttonN" id="k8" onclick="clickN(8)">8</button>
+     </td>
+     <td width="20%" valign="top">
+      <button class="buttonN" id="k9" onclick="clickN(9)">9</button>
+     </td>
+     <td width="20%" valign="top">
+      <button class="buttonF" id="kdiv">/</button>
+     </td>
+     <td width="20%" valign="top">
+      <button class="buttonC" id="kc" onclick="reset()">C</button>
+     </td>
+   </tr>
+   <!-- Строка 3 -->
+   <tr>
+     <td width="20%" valign="top">
+      <button class="buttonN" id="k4" onclick="clickN(4)">4</button>
+     </td>
+     <td width="20%" valign="top">
+      <button class="buttonN" id="k5" onclick="clickN(5)">5</button>
+     </td>
+     <td width="20%" valign="top">
+      <button class="buttonN" id="k6" onclick="clickN(6)">6</button>
+     </td>
+     <td width="20%" valign="top">
+      <button class="buttonF" id="kmul">x</button>
+     </td>
+     <td width="20%" valign="top">
+      <button class="buttonL" id="klast">00->0</button>
+     </td>
+   </tr>
+   <!-- Строка 4 -->
+   <tr>
+     <td width="20%" valign="top">
+      <button class="buttonN" id="k1" onclick="clickN(1)">1</button>
+     </td>
+     <td width="20%" valign="top">
+      <button class="buttonN" id="k2" onclick="clickN(2)">2</button>
+     </td>
+     <td width="20%" valign="top">
+      <button class="buttonN" id="k3" onclick="clickN(3)">3</button>
+     </td>
+     <td width="20%" valign="top">
+      <button class="buttonF" id="kmin">-</button>
+     </td>
+     <td rowspan="2" width="20%" valign="top">
+      <button class="buttonEq" id="keq">=</button>
+     </td>
+   </tr>
+   <!-- Строка 5 -->
+   <tr>
+     <td width="20%" valign="top">
+      <button class="buttonF" id="ksign">+/-</button>
+     </td>
+     <td width="20%" valign="top">
+      <button class="buttonN" id="k0" onclick="clickN(0)">0</button>
+     </td>
+     <td width="20%" valign="top">
+      <button class="buttonN" id="kp">.</button>
+     </td>
+     <td width="20%" valign="top">
+      <button class="buttonF" id="kplus">+</button>
+     </td>
+     
+   </tr>
+
+  </table> 
+
+ </body>
+</html>
