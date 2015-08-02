@@ -1,0 +1,105 @@
+button.buttonN { /*Buttons with numbers 0-9 and .*/
+    background-color: #D3D3D3;
+	font: 22pt sans-serif;
+	width: 50px;
+	height: 50px;
+	color: #034d97;
+	border: 2px solid #808080;
+
+  }
+  button.buttonN:hover { /*Hovering buttons with numbers 0-9 and .*/
+    background-color: #D3D3D3;
+	font: 22pt sans-serif;
+	width: 50px;
+	height: 50px;
+	color: red;
+	border: 2px solid #808080;
+	cursor: pointer;
+  }
+  button.buttonF { /*Functional buttons: +/-, /, *, -, +*/
+    background-color: #696969;
+	font: 22pt sans-serif;
+	width: 50px;
+	height: 50px;
+	color: white;
+	border: 2px solid #808080;
+  }
+  button.buttonF:hover { /*Hovering Functional buttons: +/-, /, *, -, +*/
+    background-color: #696969;
+	font: 22pt sans-serif;
+	width: 50px;
+	height: 50px;
+	color: #FFA07A;
+	border: 2px solid #808080;
+	cursor: pointer;
+  }
+  button.buttonC { /*Functional button C*/
+    background-color: #FF0000;
+	font: 22pt sans-serif;
+	width: 50px;
+	height: 50px;
+	color: white;
+	border: 2px solid #808080;
+  }
+   button.buttonC:hover { /*Functional button C*/
+    background-color: #FF0000;
+	font: 22pt sans-serif;
+	width: 50px;
+	height: 50px;
+	color: #FFA07A;
+	border: 2px solid #808080;
+	cursor: pointer;
+  }
+  button.buttonL { /*Functional button 00->0*/
+    background-color: #696969;
+	font: 10pt sans-serif;
+	width: 50px;
+	height: 50px;
+	color: white;
+	border: 2px solid #808080;
+  }
+   button.buttonL:hover { /*Functional button 00->0*/
+    background-color: #696969;
+	font: 10pt sans-serif;
+	width: 50px;
+	height: 50px;
+	color: #FFA07A;
+	border: 2px solid #808080;
+	cursor: pointer;
+  }
+  button.buttonEq { /*Functional button =*/
+    background-color: #4169E0;
+	font: 22pt sans-serif;
+	width: 50px;
+	height: 106px;
+	color: white;
+	border: 2px solid #808080;
+  }
+  button.buttonEq:hover { /*Functional button =*/
+    background-color: #4169E0;
+	font: 22pt sans-serif;
+	width: 50px;
+	height: 104px;
+	color: #FFA07A;
+	border: 2px solid #808080;
+	cursor: pointer;
+  }
+  input.display { /*Display of the calculator - text box*/
+    background-color: #FFFFFF;
+    text-align: right;
+	font: 28pt sans-serif;
+	width: 275px;
+	height: 50px;
+	color: #000000;
+	border: 2px solid #808080;
+  }
+  input.display:hover { /*Display of the calculator - text box*/
+    background-color: #FFFFFF;
+    text-align: right;
+	font: 28pt sans-serif;
+	width: 275px;
+	height: 50px;
+	color: #000000;
+	border: 2px solid #808080;
+	cursor: text;
+  }
