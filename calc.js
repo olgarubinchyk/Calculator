@@ -8,5 +8,4 @@ function clickN(num) { //Reset function - if click on "C" button
 	if (disp.value.length<12) {  
 			disp.value = disp.value + num;
 	}
-	else {}
 }
